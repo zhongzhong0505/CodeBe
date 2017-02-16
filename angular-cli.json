@@ -21,7 +21,6 @@
         "styles.css"
       ],
       "scripts": [
-        "../node_modules/ng2-ckeditor/lib/index.js"
       ],
       "environments": {
         "source": "environments/environment.ts",

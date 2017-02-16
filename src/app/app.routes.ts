@@ -1,10 +1,16 @@
 import { AppComponent } from './app.component';
 
+import { LoginComponent } from './login/login.component';
+
 export const appRoutes=[
 	{
 		path:'',
-		redirectTo:"home",
+		redirectTo:"login",
 		pathMatch:"full"
+	},
+	{
+		path:'login',
+		component:LoginComponent
 	},
 	{
 		path:"home",
@@ -12,6 +18,6 @@ export const appRoutes=[
 	},
 	{
 		path:'**',//fallback router must in the last
-		loadChildren:'./home/home.module#HomeModule'
+		redirectTo:"home"
 	}
 ];

@@ -7,11 +7,13 @@ import { CKEditorModule } from 'ng2-ckeditor';
 
 import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

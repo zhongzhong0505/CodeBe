@@ -5,9 +5,10 @@ import { CkeditorDemoComponent } from '../ckeditor-demo/ckeditor-demo.component'
 export const homeRoutes=[
 	{
 		path:'',
-		component:HomeComponent
-	},{
-        path:'ckeditor',
-        component:CkeditorDemoComponent
-    }
+		component:HomeComponent,
+		children:[{
+			path:'ckeditor',
+			component:CkeditorDemoComponent
+    	}]
+	}
 ];
