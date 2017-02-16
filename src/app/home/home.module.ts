@@ -1,27 +1,23 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { CKEditorModule } from 'ng2-ckeditor';
 
-import { AppComponent } from './app.component';
-import { appRoutes } from './app.routes';
-
+import { HomeComponent } from './home.component';
+import { CkeditorDemoComponent } from '../ckeditor-demo/ckeditor-demo.component';
+import { homeRoutes } from './home.routes'; 
 
 @NgModule({
   declarations: [
-    AppComponent
+      HomeComponent,
+      CkeditorDemoComponent
   ],
   imports: [
-    BrowserModule,
     FormsModule,
     HttpModule,
     CKEditorModule,
-    RouterModule.forRoot(appRoutes)
-   
+    RouterModule.forChild(homeRoutes)
   ],
-  providers: [],
-  bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class HomeModule { }
