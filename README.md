@@ -10,4 +10,7 @@
     npm install 
     ng serve
 
+# 关于我
+    我是钟钟
+
     
