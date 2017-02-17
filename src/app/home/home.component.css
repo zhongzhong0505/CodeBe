@@ -1,0 +1,13 @@
+.container{
+    width:1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    color: #99979c;
+    text-align: center;
+    background-color: #2a2730;
+}

@@ -9,6 +9,9 @@ export const homeRoutes=[
 		path:'',
 		component:HomeComponent,
 		children:[{
+			path:"",
+			component:CkeditorDemoComponent
+		},{
 			path:'ckeditor',
 			component:CkeditorDemoComponent
     	},{

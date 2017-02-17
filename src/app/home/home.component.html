@@ -1,5 +1,5 @@
 <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+  <div class="container container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -16,6 +16,7 @@
       <ul class="nav navbar-nav">
         <li ><a routerLink="ckeditor" >Ckeditor</a></li>
         <li ><a routerLink="highcharts" >Highcharts</a></li>
+        <li ><a routerLink="markdown" >Markdown</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -47,4 +48,12 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<router-outlet></router-outlet>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<footer>
+  <div class="container">
+    <p>angular2 整合各种插件的例子</p>
+  </div>
+</footer>
