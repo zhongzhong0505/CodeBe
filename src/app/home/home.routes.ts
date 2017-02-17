@@ -10,7 +10,8 @@ export const homeRoutes=[
 		component:HomeComponent,
 		children:[{
 			path:"",
-			component:CkeditorDemoComponent
+			redirectTo:"ckeditor"
+			// component:CkeditorDemoComponent
 		},{
 			path:'ckeditor',
 			component:CkeditorDemoComponent
