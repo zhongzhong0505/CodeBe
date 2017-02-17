@@ -8,13 +8,15 @@ import { Ng2HighchartsModule } from 'ng2-highcharts';
 import { HomeComponent } from './home.component';
 import { CkeditorDemoComponent } from '../ckeditor-demo/ckeditor-demo.component';
 import { HighchartsDemoComponent } from '../highcharts-demo/highcharts-demo.component';
+import { MarkdownDemoComponent } from '../markdown-demo/markdown-demo.component';
 import { homeRoutes } from './home.routes'; 
 
 @NgModule({
   declarations: [
       HomeComponent,
       CkeditorDemoComponent,
-      HighchartsDemoComponent
+      HighchartsDemoComponent,
+      MarkdownDemoComponent
   ],
   imports: [
     FormsModule,
