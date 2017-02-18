@@ -10,8 +10,8 @@ import { CkeditorDemoComponent } from '../ckeditor-demo/ckeditor-demo.component'
 import { HighchartsDemoComponent } from '../highcharts-demo/highcharts-demo.component';
 import { MarkdownDemoComponent } from '../markdown-demo/markdown-demo.component';
 import { homeRoutes } from './home.routes'; 
-
 @NgModule({
+  
   declarations: [
       HomeComponent,
       CkeditorDemoComponent,
@@ -24,6 +24,6 @@ import { homeRoutes } from './home.routes';
     CKEditorModule,
     Ng2HighchartsModule,
     RouterModule.forChild(homeRoutes)
-  ],
+  ]
 })
 export class HomeModule { }
