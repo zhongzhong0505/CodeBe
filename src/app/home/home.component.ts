@@ -18,6 +18,6 @@ export class HomeComponent implements OnInit {
     //....
     console.log("退出登录");
     //跳转到登录页面
-    this.router.navigateByUrl("login");
+    this.router.navigate(["login"]);
   }
 }
