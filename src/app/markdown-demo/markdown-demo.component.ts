@@ -19,7 +19,7 @@ export class MarkdownDemoComponent implements OnInit {
     this.renderer
       .use(mdSub)
       .use(mdSup)
-      .use(mdHl);
+      .use(mdHl);      
   }
 
   preview(): string{
@@ -27,8 +27,15 @@ export class MarkdownDemoComponent implements OnInit {
   }
 
   save(){
+    debugger;
     if(this.title){
-      localStorage.setItem(this.title,this.markdownText);
+      let mds:any[] = JSON.parse(localStorage.getItem("mds")) || [];
+     
+      mds.push({
+        title:this.title,
+        content:this.markdownText
+      });
+      localStorage.setItem("mds",JSON.stringify(mds));
     }else{
       //....
     }
