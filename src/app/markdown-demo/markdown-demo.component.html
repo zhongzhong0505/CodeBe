@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-md-6 col-sm-12">
+  <!--<div class="col-md-6 col-sm-12">
       <div class="input-group">
           <input class="form-control" [(ngModel)]="title" name="title" placeholder="标题" required>
           <span class="input-group-btn">
@@ -14,5 +14,6 @@
   <div class="col-md-6 col-sm-12">
     <label class="text-info">预览:</label>
     <div [innerHTML]="preview()"></div>
-  </div>
+  </div>-->
+  <textarea textEditor (value)="save($event)"></textarea>
 </div>

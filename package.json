@@ -32,6 +32,7 @@
     "ng2-ckeditor": "^1.1.5",
     "ng2-highcharts": "^0.6.5",
     "rxjs": "^5.1.1",
+    "simplemde": "^1.11.2",
     "ts-helpers": "^1.1.2",
     "zone.js": "^0.7.7"
   },

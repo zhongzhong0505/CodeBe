@@ -9,6 +9,8 @@ import { HomeComponent } from './home.component';
 import { CkeditorDemoComponent } from '../ckeditor-demo/ckeditor-demo.component';
 import { HighchartsDemoComponent } from '../highcharts-demo/highcharts-demo.component';
 import { MarkdownDemoComponent } from '../markdown-demo/markdown-demo.component';
+import { TextEditorDirective } from '../markdown-demo/text-editor.directive';
+
 import { homeRoutes } from './home.routes'; 
 @NgModule({
   
@@ -16,7 +18,8 @@ import { homeRoutes } from './home.routes';
       HomeComponent,
       CkeditorDemoComponent,
       HighchartsDemoComponent,
-      MarkdownDemoComponent
+      MarkdownDemoComponent,
+      TextEditorDirective
   ],
   imports: [
     FormsModule,
