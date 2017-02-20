@@ -4,7 +4,11 @@
     3.支持md语法的写作 已经完成
     4.。。。。
     如果你们有什么需要集成的插件，然后自己做比较困难的，可以告诉我，我会在这个例子中添加进去的。
-    
+
+# 运行效果
+    ![效果图](src/assets/images/1.jpg)
+    ![效果图](src/assets/images/2.jpg)
+    ![效果图](src/assets/images/3.jpg)
 
 # 安装&运行
     npm install 
