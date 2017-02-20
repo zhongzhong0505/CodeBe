@@ -6,9 +6,9 @@
     如果你们有什么需要集成的插件，然后自己做比较困难的，可以告诉我，我会在这个例子中添加进去的。
 
 # 运行效果
-    ![效果图](https://github.com/zhongzhong0505/ng2-demo/raw/master/images/1.jpg)
-    ![效果图](src/assets/images/2.jpg)
-    ![效果图](src/assets/images/3.jpg)
+    ![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg)
+    ![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg)
+    ![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg)
 
 # 安装&运行
     npm install 
