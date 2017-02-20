@@ -29,7 +29,6 @@ export class MdEditorComponent implements OnInit {
     @ViewChild('simplemde') textarea: ElementRef
     private smd;
     private renderer = md();
-    @Input() options = {};
     @Output() save = new EventEmitter();
     private title = "";
 
@@ -50,7 +49,7 @@ export class MdEditorComponent implements OnInit {
                 return this.renderer.render(this.smd.value());
             }
         };
-        config = Object.assign(config, this.options);
+        config = Object.assign({},config);
         this.smd = new SimpleMDE(config);
     }
 
