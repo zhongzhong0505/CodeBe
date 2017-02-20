@@ -8,11 +8,9 @@ import { MdEditorComponent } from './md-editor.component';
 })
 export class MarkdownDemoComponent implements OnInit {
   constructor() { }
-  text;
   ngOnInit() {
-     
   }
   save(event){
-    debugger;
+    console.log(event);
   }
 }
