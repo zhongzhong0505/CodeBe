@@ -7,8 +7,8 @@
 
 # 运行效果
     ![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg)
-    ![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg)
-    ![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg)
+    ![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/2.jpg)
+    ![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/3.jpg)
 
 # 安装&运行
     npm install 
