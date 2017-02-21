@@ -8,22 +8,8 @@ import * as mdHl from 'markdown-it-highlightjs';
 
 @Component({
     selector: 'md-editor',
-    template: `
-        <div class="title-input">
-            <div class="input-group">
-              <input class="form-control" [(ngModel)]="title" name="title" placeholder="标题" required>
-              <span class="input-group-btn">
-                <button class="btn btn-info" (click)="onSave()"><i class="glyphicon glyphicon-saved"></i> 保存</button>
-              </span>
-            </div>
-        </div>
-        <textarea #simplemde></textarea>
-    `,
-    styles:[`
-        .title-input {
-            margin-bottom:10px;
-        }
-    `]
+    templateUrl:'./md-editor.component.html',
+    styleUrls:['./md-editor.component.css']
 })
 export class MdEditorComponent implements OnInit {
     @ViewChild('simplemde') textarea: ElementRef
@@ -42,7 +28,7 @@ export class MdEditorComponent implements OnInit {
 
         let config = {
             element: this.textarea.nativeElement,
-            showIcons: ["code", "table", "horizontal-rule", "clean-block", "strikethrough", "heading-smaller"
+            showIcons: ["code", "table", "horizontal-rule",  "strikethrough", "heading-smaller"
                 , "heading-bigger", "heading-1", "heading-2", "heading-3"],
             spellChecker: false,
             previewRender: () => {

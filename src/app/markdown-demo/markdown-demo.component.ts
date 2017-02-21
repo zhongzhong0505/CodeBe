@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { MdEditorComponent } from './md-editor.component';
+import { MdEditorComponent } from './md-editor/md-editor.component';
 @Component({
   selector: 'app-markdown-demo',
   templateUrl: './markdown-demo.component.html',

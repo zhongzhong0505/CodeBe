@@ -9,7 +9,7 @@ import { HomeComponent } from './home.component';
 import { CkeditorDemoComponent } from '../ckeditor-demo/ckeditor-demo.component';
 import { HighchartsDemoComponent } from '../highcharts-demo/highcharts-demo.component';
 import { MarkdownDemoComponent } from '../markdown-demo/markdown-demo.component';
-import { MdEditorComponent } from '../markdown-demo/md-editor.component';
+import { MdEditorComponent } from '../markdown-demo/md-editor/md-editor.component';
 
 import { homeRoutes } from './home.routes'; 
 @NgModule({

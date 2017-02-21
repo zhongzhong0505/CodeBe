@@ -1,0 +1,9 @@
+<div class="title-input">
+    <div class="input-group">
+        <input class="form-control" [(ngModel)]="title" name="title" placeholder="标题" required>
+        <span class="input-group-btn">
+                <button class="btn btn-info" (click)="onSave()"><i class="glyphicon glyphicon-saved"></i> 保存</button>
+            </span>
+    </div>
+</div>
+<textarea #simplemde></textarea>
