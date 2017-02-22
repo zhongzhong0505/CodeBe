@@ -12,7 +12,8 @@
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/3.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/3.jpg "效果图")
 
 # 安装&运行
-    npm install 
+    npm install -g cnpm
+    cnpm install -g @angular/cli
     ng serve
 
 # 关于我
