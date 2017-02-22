@@ -17,6 +17,7 @@
     ng serve
 
 # 关于我
-    我是钟钟
+    我是钟钟 
+    邮箱：zhongzhong@asloop.com
 
     
