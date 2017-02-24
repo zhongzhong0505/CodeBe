@@ -20,4 +20,7 @@
     我是钟钟 
     邮箱：zhongzhong@asloop.com
 
+# 强烈推荐，大漠穷秋老师的-NiceFish
+http://git.oschina.net/mumu-osc/NiceFish
+
     
