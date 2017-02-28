@@ -9,7 +9,6 @@ import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
 import { LoginComponent } from './login/login.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,

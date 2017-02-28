@@ -10,6 +10,8 @@ import { CkeditorDemoComponent } from '../ckeditor-demo/ckeditor-demo.component'
 import { HighchartsDemoComponent } from '../highcharts-demo/highcharts-demo.component';
 import { MarkdownDemoComponent } from '../markdown-demo/markdown-demo.component';
 import { MdEditorComponent } from '../markdown-demo/md-editor/md-editor.component';
+import { AmapDemoComponent } from '../amap-demo/amap-demo.component';
+import { AmapComponent } from '../amap-demo/amap/amap.component';
 
 import { homeRoutes } from './home.routes'; 
 @NgModule({
@@ -19,7 +21,9 @@ import { homeRoutes } from './home.routes';
       CkeditorDemoComponent,
       HighchartsDemoComponent,
       MarkdownDemoComponent,
-      MdEditorComponent
+      MdEditorComponent,
+      AmapDemoComponent,
+      AmapComponent
   ],
   imports: [
     FormsModule,
