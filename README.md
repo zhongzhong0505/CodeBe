@@ -22,6 +22,7 @@
 
 ## 关于我
     我是钟钟 
+    QQ:459520690
     邮箱：zhongzhong@asloop.com
 
 ## 强烈推荐，大漠穷秋老师的-NiceFish
