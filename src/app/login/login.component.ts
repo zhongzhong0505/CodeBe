@@ -18,7 +18,7 @@ export class LoginComponent implements OnInit {
   }
 
   login() {
-    this.toastr.success('即将跳转到首页！', '登录成功!');
+    this.toastr.info('即将跳转到首页！', '登录成功!');
     setTimeout(() => {
       this.router.navigateByUrl("home");
     }, 2000)
