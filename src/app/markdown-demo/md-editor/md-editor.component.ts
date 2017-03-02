@@ -8,14 +8,14 @@ import * as mdHl from 'markdown-it-highlightjs';
 
 @Component({
     selector: 'md-editor',
-    templateUrl:'./md-editor.component.html',
-    styleUrls:['./md-editor.component.css']
+    templateUrl: './md-editor.component.html',
+    styleUrls: ['./md-editor.component.css']
 })
 export class MdEditorComponent implements OnInit {
     @ViewChild('simplemde') textarea: ElementRef
     private smd;
     private renderer = md();
-    @Output() save = new EventEmitter();
+    @Output() save = new EventEmitter<{ [key: string]: any }>();
     private title = "";
 
     constructor(private el: ElementRef) { }
@@ -28,21 +28,21 @@ export class MdEditorComponent implements OnInit {
 
         let config = {
             element: this.textarea.nativeElement,
-            showIcons: ["code", "table", "horizontal-rule",  "strikethrough", "heading-smaller"
+            showIcons: ["code", "table", "horizontal-rule", "strikethrough", "heading-smaller"
                 , "heading-bigger", "heading-1", "heading-2", "heading-3"],
             spellChecker: false,
             previewRender: () => {
                 return this.renderer.render(this.smd.value());
             }
         };
-        config = Object.assign({},config);
+        config = Object.assign({}, config);
         this.smd = new SimpleMDE(config);
     }
 
     onSave() {
         this.save.emit({
-            title:this.title,
-            value:this.smd.value()
+            title: this.title,
+            value: this.smd.value()
         });
     }
 }
