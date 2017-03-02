@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewContainerRef } from '@angular/core';
+
+import { ToastsManager } from 'ng2-toastr/ng2-toastr';
 
 import { MdEditorComponent } from './md-editor/md-editor.component';
 @Component({
@@ -7,10 +9,13 @@ import { MdEditorComponent } from './md-editor/md-editor.component';
   styleUrls: ['./markdown-demo.component.css']
 })
 export class MarkdownDemoComponent implements OnInit {
-  constructor() { }
+  constructor(public toastr: ToastsManager, vcr: ViewContainerRef) {
+    this.toastr.setRootViewContainerRef(vcr);
+  }
   ngOnInit() {
   }
-  save(event){
+  save(event) {
     console.log(event);
+    this.toastr.success('保存成功！','系统提示');
   }
 }
