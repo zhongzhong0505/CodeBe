@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewContainerRef } from '@angular/core';
 import { Router } from '@angular/router';
+
+import { ToastsManager } from 'ng2-toastr/ng2-toastr';
 
 @Component({
   selector: 'app-login',
@@ -8,12 +10,17 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(public router: Router) { }
+  constructor(public router: Router, public toastr: ToastsManager, vcr: ViewContainerRef) {
+    this.toastr.setRootViewContainerRef(vcr);
+  }
 
   ngOnInit() {
   }
 
-  login(){
-    this.router.navigateByUrl("home");
+  login() {
+    this.toastr.success('即将跳转到首页！', '登录成功!');
+    setTimeout(() => {
+      this.router.navigateByUrl("home");
+    }, 2000)
   }
 }
