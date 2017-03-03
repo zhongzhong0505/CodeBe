@@ -1,10 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Ng2Highcharts, Ng2Highmaps, Ng2Highstocks } from 'ng2-highcharts';
 
+import { flyIn } from '../animations/fly-in';
+
 @Component({
   selector: 'app-highcharts-demo',
   templateUrl: './highcharts-demo.component.html',
-  styleUrls: ['./highcharts-demo.component.css']
+  styleUrls: ['./highcharts-demo.component.css'],
+  animations:[flyIn]
 })
 export class HighchartsDemoComponent implements OnInit {
   chartOptions = {
