@@ -1,13 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { flyIn } from '../animations/fly-in';
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css'],
-  animations:[flyIn]
+  styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
 

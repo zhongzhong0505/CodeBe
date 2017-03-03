@@ -1,7 +1,6 @@
-<ckeditor
-    [(ngModel)]="ckeditorContent"
-    debounce="500">
-</ckeditor>
+<div [@flyIn]='active'>
+    <ckeditor [(ngModel)]="ckeditorContent" debounce="500">
+    </ckeditor>
 
-输入的内容：<br>
-{{ ckeditorContent }}
+    输入的内容：<br> {{ ckeditorContent }}
+</div>
