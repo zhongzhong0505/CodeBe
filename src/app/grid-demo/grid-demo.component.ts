@@ -32,6 +32,15 @@ export class GridDemoComponent implements OnInit {
     }, {
       "username": "钟钟",
       "email": "XXX@qq.com"
+    }, {
+      "username": "钟钟",
+      "email": "XXX@qq.com"
+    }, {
+      "username": "钟钟",
+      "email": "XXX@qq.com"
+    }, {
+      "username": "钟钟",
+      "email": "XXX@qq.com"
     }]
   };
 
