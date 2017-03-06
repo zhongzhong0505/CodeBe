@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
@@ -13,6 +14,8 @@ import { MarkdownDemoComponent } from '../markdown-demo/markdown-demo.component'
 import { MdEditorComponent } from '../markdown-demo/md-editor/md-editor.component';
 import { AmapDemoComponent } from '../amap-demo/amap-demo.component';
 import { AmapComponent } from '../amap-demo/amap/amap.component';
+import { GridDemoComponent } from '../grid-demo/grid-demo.component';
+import { GridComponent } from '../grid-demo/grid/grid.component';
 
 import { homeRoutes } from './home.routes';
 @NgModule({
@@ -24,9 +27,12 @@ import { homeRoutes } from './home.routes';
     MarkdownDemoComponent,
     MdEditorComponent,
     AmapDemoComponent,
-    AmapComponent
+    AmapComponent,
+    GridComponent,
+    GridDemoComponent
   ],
   imports: [
+    CommonModule,
     FormsModule,
     HttpModule,
     CKEditorModule,
