@@ -1,0 +1,15 @@
+.login-container{
+    width:100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+}
+.login-div{
+    width:500px;
+    margin: 15% auto;
+}
+.login-panel{
+    border: none;
+    box-shadow: 1px 1px 15px;
+}
