@@ -5,6 +5,7 @@ import { HighchartsDemoComponent } from '../highcharts-demo/highcharts-demo.comp
 import { MarkdownDemoComponent } from '../markdown-demo/markdown-demo.component';
 import { AmapDemoComponent } from '../amap-demo/amap-demo.component';
 import { GridDemoComponent } from '../grid-demo/grid-demo.component';
+import { CalendarDemoComponent } from '../calendar-demo/calendar-demo.component';
 
 export const homeRoutes=[
 	{
@@ -29,6 +30,9 @@ export const homeRoutes=[
 		},{
 			path:"grid",
 			component:GridDemoComponent
+		},{
+			path:"calendar",
+			component:CalendarDemoComponent
 		}]
 	}
 ];

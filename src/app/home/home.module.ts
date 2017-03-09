@@ -16,6 +16,8 @@ import { AmapDemoComponent } from '../amap-demo/amap-demo.component';
 import { AmapComponent } from '../amap-demo/amap/amap.component';
 import { GridDemoComponent } from '../grid-demo/grid-demo.component';
 import { GridComponent } from '../grid-demo/grid/grid.component';
+import { CalendarDemoComponent } from '../calendar-demo/calendar-demo.component';
+import { CalendarComponent } from '../calendar-demo/calendar/calendar.component';
 
 import { homeRoutes } from './home.routes';
 @NgModule({
@@ -29,7 +31,9 @@ import { homeRoutes } from './home.routes';
     AmapDemoComponent,
     AmapComponent,
     GridComponent,
-    GridDemoComponent
+    GridDemoComponent,
+    CalendarComponent,
+    CalendarDemoComponent
   ],
   imports: [
     CommonModule,
