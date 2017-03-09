@@ -6,26 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./calendar-demo.component.css']
 })
 export class CalendarDemoComponent implements OnInit {
+  events: any[] = [
+    {
+      title: '整天事件',
+      start: '2017-03-11'
+    },
+    {
+      title: '长事件',
+      start: '2017-03-11',
+      end: '2017-03-15'
+    }
+  ];
   calendarOptions: Object = {
     height: 'auto',
     fixedWeekCount: false,
     defaultDate: '2017-03-09',
     editable: true,
     eventLimit: true, // allow "more" link when too many events
-    events: [
-      {
-        title: '整天事件',
-        start: '2017-03-11'
-      },
-      {
-        title: '长事件',
-        start: '2017-03-11',
-        end: '2017-03-15'
-      }
-    ],
-    eventClick:(calEvent, jsEvent, view)=>{
-      console.log(event,jsEvent,view);
-      
+    events: this.events,
+    eventClick: (calEvent, jsEvent, view) => {
+      console.log(event, jsEvent, view);
     }
   };
   constructor() { }

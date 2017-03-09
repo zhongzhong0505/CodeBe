@@ -14,6 +14,7 @@
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/5.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/5.jpg "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/6.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/6.jpg "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/7.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/7.jpg "效果图")
+[![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/8.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/8.jpg "效果图")
 
 
 ## 安装&运行
