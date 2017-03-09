@@ -23,8 +23,8 @@ export class CalendarDemoComponent implements OnInit {
         end: '2017-03-15'
       }
     ],
-    eventClick:(event, element)=>{
-      console.log(event,element);
+    eventClick:(calEvent, jsEvent, view)=>{
+      console.log(event,jsEvent,view);
       
     }
   };
