@@ -1,4 +1,4 @@
-import { Component, OnInit ,Input,ElementRef} from '@angular/core';
+import { Component, OnInit ,Input,ElementRef,ViewChild} from '@angular/core';
 import { Options } from 'fullcalendar';
 import * as $ from 'jquery';
 
@@ -10,11 +10,12 @@ import * as $ from 'jquery';
 })
 export class CalendarComponent implements OnInit {
     @Input() options: Options;
+    @ViewChild('calendar') calendar: ElementRef
 
-    constructor(private element:ElementRef) { }
+    constructor() { }
 
     ngOnInit() { 
-        $(this.element.nativeElement).fullCalendar(this.options);
+        $(this.calendar.nativeElement).fullCalendar(this.options);
     }
 
 }
