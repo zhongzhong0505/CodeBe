@@ -1,4 +1,5 @@
 import { Component, OnInit ,Input,ElementRef,ViewChild} from '@angular/core';
+import 'fullcalendar';
 import { Options } from 'fullcalendar';
 import * as $ from 'jquery';
 
