@@ -33,9 +33,11 @@ export class MdEditorComponent implements OnInit {
             spellChecker: false,
             previewRender: () => {
                 return this.renderer.render(this.smd.value());
-            }
+            },
+            autoDownloadFontAwesome:false //不自动下载font-awesome样式，在index中已经加入了
         };
         config = Object.assign({}, config);
+        debugger;
         this.smd = new SimpleMDE(config);
     }
 
