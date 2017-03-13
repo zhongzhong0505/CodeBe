@@ -21,6 +21,7 @@
 ## 安装&运行
     npm install -g cnpm
     cnpm install -g @angular/cli
+    cnpm install
     ng serve
 
 ## 关于我
