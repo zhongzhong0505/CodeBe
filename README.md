@@ -4,7 +4,8 @@
     3.支持md语法的写作 已经完成
     4.高度地图 已经完成
     5.fullcalendar 已经完成
-    6.......
+    6.amcharts 正在进行中
+    7.......
     如果你们有什么需要集成的插件，然后自己做比较困难的，可以告诉我，我会在这个例子中添加进去的。
 
 ## 运行效果
@@ -15,7 +16,7 @@
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/6.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/6.jpg "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/7.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/7.jpg "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/9.png "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/9.png "效果图")
-
+[![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/10.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/10.jpg "效果图")
 
 ## 安装&运行
     npm install -g cnpm
