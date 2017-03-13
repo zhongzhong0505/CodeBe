@@ -20,6 +20,7 @@ import { GridComponent } from '../grid-demo/grid/grid.component';
 import { CalendarDemoComponent } from '../calendar-demo/calendar-demo.component';
 import { CalendarComponent } from '../calendar-demo/calendar/calendar.component';
 import { AmchartsDemoComponent } from '../amcharts-demo/amcharts-demo.component';
+import { AmchartComponent } from '../amcharts-demo/amchart/amchart.component';
 
 import { homeRoutes } from './home.routes';
 @NgModule({
@@ -36,7 +37,8 @@ import { homeRoutes } from './home.routes';
     GridDemoComponent,
     CalendarComponent,
     CalendarDemoComponent,
-    AmchartsDemoComponent
+    AmchartsDemoComponent,
+    AmchartComponent
   ],
   imports: [
     CommonModule,
