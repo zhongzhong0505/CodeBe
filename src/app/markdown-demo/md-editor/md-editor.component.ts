@@ -37,7 +37,6 @@ export class MdEditorComponent implements OnInit {
             autoDownloadFontAwesome:false //不自动下载font-awesome样式，在index中已经加入了
         };
         config = Object.assign({}, config);
-        debugger;
         this.smd = new SimpleMDE(config);
     }
 

@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { CKEditorModule } from 'ng2-ckeditor';
 import { Ng2HighchartsModule } from 'ng2-highcharts';
 import { ToastModule } from 'ng2-toastr/ng2-toastr';
+import { AmChartsModule } from "amcharts3-angular2";
 
 import { HomeComponent } from './home.component';
 import { CkeditorDemoComponent } from '../ckeditor-demo/ckeditor-demo.component';
@@ -18,6 +19,7 @@ import { GridDemoComponent } from '../grid-demo/grid-demo.component';
 import { GridComponent } from '../grid-demo/grid/grid.component';
 import { CalendarDemoComponent } from '../calendar-demo/calendar-demo.component';
 import { CalendarComponent } from '../calendar-demo/calendar/calendar.component';
+import { AmchartsDemoComponent } from '../amcharts-demo/amcharts-demo.component';
 
 import { homeRoutes } from './home.routes';
 @NgModule({
@@ -33,7 +35,8 @@ import { homeRoutes } from './home.routes';
     GridComponent,
     GridDemoComponent,
     CalendarComponent,
-    CalendarDemoComponent
+    CalendarDemoComponent,
+    AmchartsDemoComponent
   ],
   imports: [
     CommonModule,
@@ -41,6 +44,7 @@ import { homeRoutes } from './home.routes';
     HttpModule,
     CKEditorModule,
     Ng2HighchartsModule,
+    AmChartsModule,
     ToastModule.forRoot(),
     RouterModule.forChild(homeRoutes)
   ]

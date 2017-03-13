@@ -6,6 +6,7 @@ import { MarkdownDemoComponent } from '../markdown-demo/markdown-demo.component'
 import { AmapDemoComponent } from '../amap-demo/amap-demo.component';
 import { GridDemoComponent } from '../grid-demo/grid-demo.component';
 import { CalendarDemoComponent } from '../calendar-demo/calendar-demo.component';
+import { AmchartsDemoComponent } from '../amcharts-demo/amcharts-demo.component';
 
 export const homeRoutes=[
 	{
@@ -14,13 +15,15 @@ export const homeRoutes=[
 		children:[{
 			path:"",
 			redirectTo:"ckeditor"
-			// component:CkeditorDemoComponent
 		},{
 			path:'ckeditor',
 			component:CkeditorDemoComponent
     	},{
 			path:"highcharts",
 			component:HighchartsDemoComponent
+		},{
+			path:"amcharts",
+			component:AmchartsDemoComponent
 		},{
 			path:"markdown",
 			component:MarkdownDemoComponent
