@@ -5,9 +5,12 @@
     4.高度地图 已经完成
     5.fullcalendar 已经完成
     6.amcharts 正在进行中
-    7.jsPlumb 计划中
-    8.......
+    7.ztree 计划中
+    8.jsPlumb 计划中
+    9.......
     如果你们有什么需要集成的插件，然后自己做比较困难的，可以告诉我，我会在这个例子中添加进去的。
+    因为这个项目中集成了很多插件，你们aot build的时候可能会发现chunk很大，但是不要担心，你们实际用
+    的时候肯定不会把这些插件都用到的，对不对？
 
 ## 运行效果
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg "效果图")
