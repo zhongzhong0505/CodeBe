@@ -6,7 +6,6 @@ import { RouterModule } from '@angular/router';
 import { CKEditorModule } from 'ng2-ckeditor';
 import { Ng2HighchartsModule } from 'ng2-highcharts';
 import { ToastModule } from 'ng2-toastr/ng2-toastr';
-import { AmChartsModule } from "amcharts3-angular2";
 
 import { HomeComponent } from './home.component';
 import { CkeditorDemoComponent } from '../ckeditor-demo/ckeditor-demo.component';
@@ -46,7 +45,6 @@ import { homeRoutes } from './home.routes';
     HttpModule,
     CKEditorModule,
     Ng2HighchartsModule,
-    AmChartsModule,
     ToastModule.forRoot(),
     RouterModule.forChild(homeRoutes)
   ]

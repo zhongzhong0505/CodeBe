@@ -22,7 +22,6 @@
     "@angular/platform-browser-dynamic": "^2.4.9",
     "@angular/router": "^3.4.9",
     "@types/highcharts": "^4.2.47",
-    "amcharts3-angular2": "amcharts/amcharts3-angular2",
     "core-js": "^2.4.1",
     "fullcalendar": "^3.2.0",
     "highcharts": "^v5.0.7",

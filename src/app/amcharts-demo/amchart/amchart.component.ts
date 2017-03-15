@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
+declare var AmCharts: any;
 
 @Component({
   selector: 'app-amchart',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./amchart.component.css']
 })
 export class AmchartComponent implements OnInit {
-
+  @Input() id: string;
+  @Input() options: {};
   constructor() { }
 
   ngOnInit() {
+    console.log(AmCharts);
+    AmCharts.makeChart(this.id,this.options);
   }
 
 }
