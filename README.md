@@ -4,7 +4,7 @@
     3.支持md语法的写作 已经完成
     4.高度地图 已经完成
     5.fullcalendar 已经完成
-    6.amcharts 正在进行中
+    6.amcharts 已经完成
     7.ztree 计划中
     8.jsPlumb 计划中
     9.......
