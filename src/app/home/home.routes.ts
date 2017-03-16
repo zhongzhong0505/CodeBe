@@ -7,6 +7,7 @@ import { AmapDemoComponent } from '../amap-demo/amap-demo.component';
 import { GridDemoComponent } from '../grid-demo/grid-demo.component';
 import { CalendarDemoComponent } from '../calendar-demo/calendar-demo.component';
 import { AmchartsDemoComponent } from '../amcharts-demo/amcharts-demo.component';
+import { ZtreeDemoComponent } from '../ztree-demo/ztree-demo.component';
 
 export const homeRoutes=[
 	{
@@ -36,6 +37,9 @@ export const homeRoutes=[
 		},{
 			path:"calendar",
 			component:CalendarDemoComponent
+		},{
+			path:"ztree",
+			component:ZtreeDemoComponent
 		}]
 	}
 ];
