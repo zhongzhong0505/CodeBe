@@ -50,7 +50,6 @@ export class ZtreeDemoComponent implements OnInit {
   constructor(public el: ElementRef) { }
 
   ngOnInit() {
-    debugger;
     $.fn.zTree.init($("#ztree"),this.setting,this.zNodes);
   }
 
