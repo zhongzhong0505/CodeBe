@@ -12,8 +12,9 @@ export class AmchartComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(AmCharts);
-    AmCharts.makeChart(this.id,this.options);
+    setTimeout(()=>{
+      AmCharts.makeChart(this.id,this.options);
+    },20);
   }
 
 }
