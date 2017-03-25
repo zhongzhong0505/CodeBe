@@ -20,6 +20,7 @@ import { CalendarComponent } from '../calendar-demo/calendar/calendar.component'
 import { AmchartsDemoComponent } from '../amcharts-demo/amcharts-demo.component';
 import { AmchartComponent } from '../amcharts-demo/amchart/amchart.component';
 import { ZtreeDemoComponent } from '../ztree-demo/ztree-demo.component';
+import { JsplumbDemoComponent } from '../jsplumb-demo/jsplumb-demo.component';
 
 import { homeRoutes } from './home.routes';
 @NgModule({
@@ -38,7 +39,8 @@ import { homeRoutes } from './home.routes';
     CalendarDemoComponent,
     AmchartsDemoComponent,
     AmchartComponent,
-    ZtreeDemoComponent
+    ZtreeDemoComponent,
+    JsplumbDemoComponent
   ],
   imports: [
     CommonModule,

@@ -8,6 +8,7 @@ import { GridDemoComponent } from '../grid-demo/grid-demo.component';
 import { CalendarDemoComponent } from '../calendar-demo/calendar-demo.component';
 import { AmchartsDemoComponent } from '../amcharts-demo/amcharts-demo.component';
 import { ZtreeDemoComponent } from '../ztree-demo/ztree-demo.component';
+import { JsplumbDemoComponent } from '../jsplumb-demo/jsplumb-demo.component';
 
 export const homeRoutes=[
 	{
@@ -40,6 +41,9 @@ export const homeRoutes=[
 		},{
 			path:"ztree",
 			component:ZtreeDemoComponent
+		},{
+			path:"jsplumb",
+			component:JsplumbDemoComponent
 		}]
 	}
 ];

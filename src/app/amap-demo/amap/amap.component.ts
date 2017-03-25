@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare var AMap: any;
 @Component({
     moduleId: module.id,
     selector: 'amap',
