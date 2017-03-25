@@ -16,7 +16,7 @@ export class MdEditorComponent implements OnInit {
     private smd;
     private renderer = md();
     @Output() save = new EventEmitter<{ [key: string]: any }>();
-    private title = "";
+    public title = "";
 
     constructor(private el: ElementRef) {}
 

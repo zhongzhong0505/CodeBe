@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { CKEditorModule } from 'ng2-ckeditor';
-import { Ng2HighchartsModule } from 'ng2-highcharts';
 import { ToastModule } from 'ng2-toastr/ng2-toastr';
 
 import { HomeComponent } from './home.component';
@@ -46,7 +45,6 @@ import { homeRoutes } from './home.routes';
     FormsModule,
     HttpModule,
     CKEditorModule,
-    Ng2HighchartsModule,
     ToastModule.forRoot(),
     RouterModule.forChild(homeRoutes)
   ]

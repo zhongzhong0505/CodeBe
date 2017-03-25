@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Ng2Highcharts, Ng2Highmaps, Ng2Highstocks } from 'ng2-highcharts';
 
 import { flyIn } from '../animations/fly-in';
 
