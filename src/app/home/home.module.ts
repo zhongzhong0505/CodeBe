@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { CKEditorModule } from 'ng2-ckeditor';
 import { ToastModule } from 'ng2-toastr/ng2-toastr';
+import { DropdownModule } from 'ng2-bootstrap';
 
 import { HomeComponent } from './home.component';
 import { CkeditorDemoComponent } from '../ckeditor-demo/ckeditor-demo.component';
@@ -48,6 +49,7 @@ import { homeRoutes } from './home.routes';
     HttpModule,
     CKEditorModule,
     ToastModule.forRoot(),
+    DropdownModule.forRoot(),
     RouterModule.forChild(homeRoutes)
   ]
 })
