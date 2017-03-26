@@ -7,7 +7,9 @@
     6.amcharts 已经完成
     7.ztree 已经完成
     8.jsPlumb 进行中
-    9.......
+    9.bootstrap-table 进行中
+    10.select2 未开始
+    .......
 ## 说 明
         如果你们有什么需要集成的插件，然后自己做比较困难的，可以告诉我，我会在这个例子中添加进去的。
     因为这个项目中集成了很多插件，你们aot build的时候可能会发现chunk很大，但是不要担心，你们实际用
@@ -23,6 +25,7 @@
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/9.png "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/9.png "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/10.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/10.jpg "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/11.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/11.jpg "效果图")
+[![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/12.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/12.jpg "效果图")
 
 
 ## 安装&运行
