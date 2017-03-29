@@ -10,7 +10,10 @@ import { flyIn } from '../animations/fly-in';
 export class CkeditorDemoComponent implements OnInit {
   ckeditorContent = "";
   constructor() { }
-
+  config={
+    filebrowserBrowseUrl :"&&&&&",
+    filebrowserUploadUrl :"&&&"
+  };
   ngOnInit() {
   }
 
