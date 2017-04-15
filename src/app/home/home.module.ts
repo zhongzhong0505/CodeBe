@@ -21,6 +21,8 @@ import { AmchartsDemoComponent } from '../amcharts-demo/amcharts-demo.component'
 import { AmchartComponent } from '../amcharts-demo/amchart/amchart.component';
 import { ZtreeDemoComponent } from '../ztree-demo/ztree-demo.component';
 import { JsplumbDemoComponent } from '../jsplumb-demo/jsplumb-demo.component';
+import { MathjaxDemoComponent } from '../mathjax-demo/mathjax-demo.component';
+import { MathjaxComponent } from '../mathjax-demo/mathjax/mathjax.component';
 
 import { homeRoutes } from './home.routes';
 @NgModule({
@@ -40,7 +42,9 @@ import { homeRoutes } from './home.routes';
     AmchartsDemoComponent,
     AmchartComponent,
     ZtreeDemoComponent,
-    JsplumbDemoComponent
+    JsplumbDemoComponent,
+    MathjaxDemoComponent,
+    MathjaxComponent
   ],
   imports: [
     CommonModule,

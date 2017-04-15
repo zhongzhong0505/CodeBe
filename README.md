@@ -6,7 +6,8 @@
     5.fullcalendar 已经完成
     6.amcharts 已经完成
     7.ztree 已经完成
-    8.jsPlumb 进行中
+    8.jsPlumb 已经完成
+    9.mathjax 已经完成
     9.bootstrap-table 进行中
     10.select2 未开始
     .......
@@ -26,6 +27,7 @@
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/10.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/10.jpg "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/11.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/11.jpg "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/12.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/12.jpg "效果图")
+[![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/13.png "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/13.png "效果图")
 
 
 ## 安装&运行
