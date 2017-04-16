@@ -8,8 +8,8 @@
     7.ztree 已经完成
     8.jsPlumb 已经完成
     9.mathjax 已经完成
-    9.bootstrap-table 进行中
-    10.select2 未开始
+    10.bootstrap-table 进行中
+    11.select2 未开始
     .......
 ## 说 明
         如果你们有什么需要集成的插件，然后自己做比较困难的，可以告诉我，我会在这个例子中添加进去的。
