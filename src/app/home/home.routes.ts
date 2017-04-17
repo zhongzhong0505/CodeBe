@@ -9,7 +9,7 @@ import { CalendarDemoComponent } from '../calendar-demo/calendar-demo.component'
 import { AmchartsDemoComponent } from '../amcharts-demo/amcharts-demo.component';
 import { ZtreeDemoComponent } from '../ztree-demo/ztree-demo.component';
 import { JsplumbDemoComponent } from '../jsplumb-demo/jsplumb-demo.component';
-import { MathjaxDemoComponent } from '../mathjax-demo/mathjax-demo.component';
+import { BootstrapTableDemoComponent } from '../bootstrap-table-demo/bootstrap-table-demo.component';
 
 export const homeRoutes=[
 	{
@@ -46,8 +46,8 @@ export const homeRoutes=[
 			path:"jsplumb",
 			component:JsplumbDemoComponent
 		},{
-			path:'mathjax',
-			component:MathjaxDemoComponent
+			path:'bootstraptable',
+			component:BootstrapTableDemoComponent
 		}]
 	}
 ];

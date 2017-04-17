@@ -28,7 +28,7 @@
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/11.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/11.jpg "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/12.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/12.jpg "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/13.png "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/13.png "效果图")
-
+[![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/14.png "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/14.png "效果图")
 
 ## 安装&运行
     npm install -g cnpm
