@@ -8,13 +8,15 @@
     7.ztree 已经完成
     8.jsPlumb 已经完成
     9.mathjax 已经完成
-    10.bootstrap-table 进行中
+    10.bootstrap-table 已经完成（bootstrap-table分支）
     11.select2 未开始
     .......
 ## 说 明
-        如果你们有什么需要集成的插件，然后自己做比较困难的，可以告诉我，我会在这个例子中添加进去的。
+    如果你们有什么需要集成的插件，然后自己做比较困难的，可以告诉我，我会在这个例子中添加进去的。
     因为这个项目中集成了很多插件，你们aot build的时候可能会发现chunk很大，但是不要担心，你们实际用
     的时候肯定不会把这些插件都用到的，对不对？
+## 注意
+    有些插件在对应的分支中才会存在，所以你们一定要看清楚啊。
 
 ## 运行效果
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg "效果图")
