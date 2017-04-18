@@ -9,7 +9,7 @@
     8.jsPlumb 已经完成
     9.mathjax 已经完成
     10.bootstrap-table 已经完成（bootstrap-table分支）
-    11.select2 未开始
+    11.select2 已经完成（select2分支）
     .......
 ## 说 明
     如果你们有什么需要集成的插件，然后自己做比较困难的，可以告诉我，我会在这个例子中添加进去的。
