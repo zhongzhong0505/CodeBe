@@ -8,7 +8,6 @@ import { ToastModule } from 'ng2-toastr/ng2-toastr';
 
 import { HomeComponent } from './home.component';
 import { CkeditorDemoComponent } from '../ckeditor-demo/ckeditor-demo.component';
-import { HighchartsDemoComponent } from '../highcharts-demo/highcharts-demo.component';
 import { MarkdownDemoComponent } from '../markdown-demo/markdown-demo.component';
 import { MdEditorComponent } from '../markdown-demo/md-editor/md-editor.component';
 import { AmapDemoComponent } from '../amap-demo/amap-demo.component';
@@ -30,7 +29,6 @@ import { homeRoutes } from './home.routes';
   declarations: [
     HomeComponent,
     CkeditorDemoComponent,
-    HighchartsDemoComponent,
     MarkdownDemoComponent,
     MdEditorComponent,
     AmapDemoComponent,

@@ -19,7 +19,14 @@
 ## 注意
     有些插件在对应的分支中才会存在，所以你们一定要看清楚啊。
 
+## 安装&运行
+    npm install -g cnpm
+    cnpm install -g @angular/cli
+    cnpm install
+    ng serve
+
 ## 运行效果
+[![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/0.gif "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/0.gif "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.gif "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.gif "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/2.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/2.jpg "效果图")
@@ -33,12 +40,6 @@
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/12.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/12.jpg "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/13.png "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/13.png "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/14.png "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/14.png "效果图")
-
-## 安装&运行
-    npm install -g cnpm
-    cnpm install -g @angular/cli
-    cnpm install
-    ng serve
 
 ## 关于我
     我是钟钟 
