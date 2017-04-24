@@ -2,7 +2,7 @@
     1.ckeditor 已经完成
     2.highcharts 已经完成（ng2分支）
     3.支持md语法的写作 已经完成
-    4.高度地图 已经完成
+    4.高德地图 已经完成
     5.fullcalendar 已经完成
     6.amcharts 已经完成
     7.ztree 已经完成
