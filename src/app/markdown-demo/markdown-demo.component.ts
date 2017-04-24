@@ -8,16 +8,25 @@ import { MdEditorComponent } from './md-editor/md-editor.component';
   selector: 'app-markdown-demo',
   templateUrl: './markdown-demo.component.html',
   styleUrls: ['./markdown-demo.component.css'],
-  animations:[flyIn]
+  animations: [flyIn]
 })
 export class MarkdownDemoComponent implements OnInit {
   constructor(public toastr: ToastsManager, vcr: ViewContainerRef) {
     this.toastr.setRootViewContainerRef(vcr);
   }
   ngOnInit() {
+    this.style = {
+      'height.px':window.innerHeight
+    }
   }
   save(event) {
     console.log(event);
-    this.toastr.success('保存成功！','系统提示');
+    this.toastr.success('保存成功！', '系统提示');
+  }
+  style: any;
+  setHeight(e) {
+    this.style = {
+      'height.px': e.target.innerHeight
+    };
   }
 }
