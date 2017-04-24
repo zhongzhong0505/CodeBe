@@ -11,6 +11,7 @@
     10.bootstrap-table 已经完成（bootstrap-table分支）
     11.select2 已经完成（select2分支）
     12.layer 已经完成（layer分支）
+    13.date-range-picker 已经完成（daterangepicker分支）
     .......
 ## 说 明
     如果你们有什么需要集成的插件，然后自己做比较困难的，可以告诉我，我会在这个例子中添加进去的。
