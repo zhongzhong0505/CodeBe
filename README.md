@@ -13,6 +13,8 @@
     12.layer 已经完成（layer分支）
     13.date-range-picker 已经完成（daterangepicker分支）
     .......
+## github地址
+    https://github.com/zhongzhong0505/CodeBe
 ## 说 明
     如果你们有什么需要集成的插件，然后自己做比较困难的，可以告诉我，我会在这个例子中添加进去的。
     因为这个项目中集成了很多插件，你们aot build的时候可能会发现chunk很大，但是不要担心，你们实际用
