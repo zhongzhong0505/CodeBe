@@ -12,6 +12,7 @@
     11.select2 已经完成（select2分支）
     12.layer 已经完成（layer分支）
     13.date-range-picker 已经完成（daterangepicker分支）
+    14.汉字转拼音 已经完成（pinyin分支）
     .......
 ## github地址
     https://github.com/zhongzhong0505/CodeBe
