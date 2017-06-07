@@ -22,6 +22,7 @@ import { ZtreeDemoComponent } from '../ztree-demo/ztree-demo.component';
 import { JsplumbDemoComponent } from '../jsplumb-demo/jsplumb-demo.component';
 import { MathjaxDemoComponent } from '../mathjax-demo/mathjax-demo.component';
 import { MathjaxComponent } from '../mathjax-demo/mathjax/mathjax.component';
+import { MxgraphDemoComponent } from '../mxgraph-demo/mxgraph-demo.component';
 
 import { homeRoutes } from './home.routes';
 @NgModule({
@@ -42,7 +43,8 @@ import { homeRoutes } from './home.routes';
     ZtreeDemoComponent,
     JsplumbDemoComponent,
     MathjaxDemoComponent,
-    MathjaxComponent
+    MathjaxComponent,
+    MxgraphDemoComponent
   ],
   imports: [
     CommonModule,

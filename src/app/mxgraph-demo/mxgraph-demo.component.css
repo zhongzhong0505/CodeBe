@@ -1,0 +1,8 @@
+.mxgraph{
+    position:relative;
+    overflow:hidden;
+    width:321px;
+    height:241px;
+    /*background:url('editors/images/grid.gif');*/
+    cursor:default;
+}
