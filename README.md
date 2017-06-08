@@ -39,6 +39,7 @@
     ng serve
 
 ## 运行效果
+[![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/2.gif "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/2.gif "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/0.gif "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/0.gif "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.gif "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.gif "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg "效果图")
