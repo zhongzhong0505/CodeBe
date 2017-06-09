@@ -1,8 +1,14 @@
-.mxgraph{
-    position:relative;
-    overflow:hidden;
-    width:321px;
-    height:241px;
-    /*background:url('editors/images/grid.gif');*/
-    cursor:default;
+.toolbar{
+    position: absolute;
+    width: 24px;
+    left:20px;
+    top:80px;
+    overflow: hidden;
+}
+.container{
+    float: left;
+    overflow: hidden;
+	background:url("/assets/mxgraph/src/images/grid.gif");
+    width:100%;
+    min-height: 500px;
 }
