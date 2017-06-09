@@ -14,7 +14,7 @@
     13.date-range-picker日期时间选择插件 已经完成（daterangepicker分支）
     14.汉字转拼音 已经完成（pinyin分支）
     15.flatPickr日期时间选择插件 已经完成（flatPickr分支）
-    16.mxgraph 进行中
+    16.mxgraph 已经完成 （mxgraph分支）
     .......
 ## github地址
     https://github.com/zhongzhong0505/CodeBe
@@ -39,6 +39,7 @@
     ng serve
 
 ## 运行效果
+[![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/2.gif "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/2.gif "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/0.gif "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/0.gif "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.gif "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.gif "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1.jpg "效果图")
