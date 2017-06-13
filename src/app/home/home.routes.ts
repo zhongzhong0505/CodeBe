@@ -10,6 +10,7 @@ import { ZtreeDemoComponent } from '../ztree-demo/ztree-demo.component';
 import { JsplumbDemoComponent } from '../jsplumb-demo/jsplumb-demo.component';
 import { MathjaxDemoComponent } from '../mathjax-demo/mathjax-demo.component';
 import { MeComponent } from '../me/me.component';
+import { PhotoswipeDemoComponent } from '../photoswipe-demo/photoswipe-demo.component';
 
 export const homeRoutes=[
 	{
@@ -48,6 +49,9 @@ export const homeRoutes=[
 		},{
 			path:'me',
 			component:MeComponent
+		},{
+			path:'photoswipe',
+			component:PhotoswipeDemoComponent
 		}]
 	}
 ];

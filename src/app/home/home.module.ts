@@ -23,6 +23,8 @@ import { JsplumbDemoComponent } from '../jsplumb-demo/jsplumb-demo.component';
 import { MathjaxDemoComponent } from '../mathjax-demo/mathjax-demo.component';
 import { MathjaxComponent } from '../mathjax-demo/mathjax/mathjax.component';
 import { MeComponent } from '../me/me.component';
+import { PhotoswipeDemoComponent } from '../photoswipe-demo/photoswipe-demo.component';
+
 
 import { homeRoutes } from './home.routes';
 @NgModule({
@@ -44,7 +46,8 @@ import { homeRoutes } from './home.routes';
     JsplumbDemoComponent,
     MathjaxDemoComponent,
     MathjaxComponent,
-    MeComponent
+    MeComponent,
+    PhotoswipeDemoComponent
   ],
   imports: [
     CommonModule,
