@@ -9,6 +9,7 @@ import { AmchartsDemoComponent } from '../amcharts-demo/amcharts-demo.component'
 import { ZtreeDemoComponent } from '../ztree-demo/ztree-demo.component';
 import { JsplumbDemoComponent } from '../jsplumb-demo/jsplumb-demo.component';
 import { MathjaxDemoComponent } from '../mathjax-demo/mathjax-demo.component';
+import { MeComponent } from '../me/me.component';
 
 export const homeRoutes=[
 	{
@@ -44,6 +45,9 @@ export const homeRoutes=[
 		},{
 			path:'mathjax',
 			component:MathjaxDemoComponent
+		},{
+			path:'me',
+			component:MeComponent
 		}]
 	}
 ];
