@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,ElementRef,ViewChild} from '@angular/core';
 declare var PhotoSwipe :any;
 declare var PhotoSwipeUI_Default :any;
 
@@ -8,7 +8,7 @@ declare var PhotoSwipeUI_Default :any;
   styleUrls: ['./photoswipe-demo.component.css']
 })
 export class PhotoswipeDemoComponent implements OnInit {
-
+  @ViewChild('pswp') pswp: ElementRef
   constructor() { }
 
   ngOnInit() {
@@ -16,7 +16,7 @@ export class PhotoswipeDemoComponent implements OnInit {
   }
 
   openSwipe(){
-    var pswpElement = document.querySelectorAll('.pswp')[0];
+    var pswpElement = this.pswp.nativeElement;//document.querySelectorAll('.pswp')[0];
 
     // build items array
     var items = [
