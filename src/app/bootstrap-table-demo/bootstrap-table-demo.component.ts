@@ -13,6 +13,8 @@ export class BootstrapTableDemoComponent implements OnInit {
     $("#mytable").bootstrapTable({
       width: 600,
       height:500,
+      showRefresh:true,
+      showColumns:true,
       columns: [{
         checkbox: true
       }, {
