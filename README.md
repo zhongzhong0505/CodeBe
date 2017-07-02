@@ -16,6 +16,7 @@
     15.flatPickr日期时间选择插件 已经完成（flatPickr分支）
     16.mxgraph 已经完成 （mxgraph分支）
     17.PhotoSwipe 已经完成 （photoswipe分支）
+    18.ng2-pdf-viewer 已经完成（pdf-viewer分支）
     .......
 ## github地址
     https://github.com/zhongzhong0505/CodeBe
