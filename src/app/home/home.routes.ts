@@ -10,6 +10,8 @@ import { ZtreeDemoComponent } from '../ztree-demo/ztree-demo.component';
 import { JsplumbDemoComponent } from '../jsplumb-demo/jsplumb-demo.component';
 import { MathjaxDemoComponent } from '../mathjax-demo/mathjax-demo.component';
 import { MeComponent } from '../me/me.component';
+import { PdfViewerDemoComponent } from '../pdf-viewer-demo/pdf-viewer-demo.component';
+
 
 export const homeRoutes=[
 	{
@@ -48,6 +50,9 @@ export const homeRoutes=[
 		},{
 			path:'me',
 			component:MeComponent
+		},{
+			path:'pdf-viewer',
+			component:PdfViewerDemoComponent
 		}]
 	}
 ];

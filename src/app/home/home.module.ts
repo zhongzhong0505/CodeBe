@@ -23,6 +23,8 @@ import { JsplumbDemoComponent } from '../jsplumb-demo/jsplumb-demo.component';
 import { MathjaxDemoComponent } from '../mathjax-demo/mathjax-demo.component';
 import { MathjaxComponent } from '../mathjax-demo/mathjax/mathjax.component';
 import { MeComponent } from '../me/me.component';
+import { PdfViewerComponent } from 'ng2-pdf-viewer';
+import { PdfViewerDemoComponent } from '../pdf-viewer-demo/pdf-viewer-demo.component';
 
 import { homeRoutes } from './home.routes';
 @NgModule({
@@ -44,7 +46,9 @@ import { homeRoutes } from './home.routes';
     JsplumbDemoComponent,
     MathjaxDemoComponent,
     MathjaxComponent,
-    MeComponent
+    MeComponent,
+    PdfViewerComponent,
+    PdfViewerDemoComponent
   ],
   imports: [
     CommonModule,
