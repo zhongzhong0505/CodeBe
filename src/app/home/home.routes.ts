@@ -5,7 +5,6 @@ import { MarkdownDemoComponent } from '../markdown-demo/markdown-demo.component'
 import { AmapDemoComponent } from '../amap-demo/amap-demo.component';
 import { GridDemoComponent } from '../grid-demo/grid-demo.component';
 import { CalendarDemoComponent } from '../calendar-demo/calendar-demo.component';
-import { AmchartsDemoComponent } from '../amcharts-demo/amcharts-demo.component';
 import { ZtreeDemoComponent } from '../ztree-demo/ztree-demo.component';
 import { JsplumbDemoComponent } from '../jsplumb-demo/jsplumb-demo.component';
 import { MathjaxDemoComponent } from '../mathjax-demo/mathjax-demo.component';
@@ -22,9 +21,6 @@ export const homeRoutes=[
 			path:'ckeditor',
 			component:CkeditorDemoComponent
     	},{
-			path:"amcharts",
-			component:AmchartsDemoComponent
-		},{
 			path:"markdown",
 			component:MarkdownDemoComponent
 		},{

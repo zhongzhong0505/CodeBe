@@ -4,7 +4,7 @@
     3.支持md语法的写作 已经完成
     4.高德地图 已经完成
     5.fullcalendar 已经完成
-    6.amcharts 已经完成
+    6.amcharts 已经完成（amcharts分支）
     7.ztree 已经完成
     8.jsPlumb 已经完成
     9.mathjax 已经完成

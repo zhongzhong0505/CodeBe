@@ -16,8 +16,6 @@ import { GridDemoComponent } from '../grid-demo/grid-demo.component';
 import { GridComponent } from '../grid-demo/grid/grid.component';
 import { CalendarDemoComponent } from '../calendar-demo/calendar-demo.component';
 import { CalendarComponent } from '../calendar-demo/calendar/calendar.component';
-import { AmchartsDemoComponent } from '../amcharts-demo/amcharts-demo.component';
-import { AmchartComponent } from '../amcharts-demo/amchart/amchart.component';
 import { ZtreeDemoComponent } from '../ztree-demo/ztree-demo.component';
 import { JsplumbDemoComponent } from '../jsplumb-demo/jsplumb-demo.component';
 import { MathjaxDemoComponent } from '../mathjax-demo/mathjax-demo.component';
@@ -38,8 +36,6 @@ import { homeRoutes } from './home.routes';
     GridDemoComponent,
     CalendarComponent,
     CalendarDemoComponent,
-    AmchartsDemoComponent,
-    AmchartComponent,
     ZtreeDemoComponent,
     JsplumbDemoComponent,
     MathjaxDemoComponent,
