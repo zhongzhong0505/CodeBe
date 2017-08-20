@@ -1,4 +1,5 @@
-import { Component, OnInit ,ViewChild ,ElementRef } from '@angular/core';
+import { Component, OnInit, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
+import 'codemirror/mode/javascript/javascript';
 import * as CodeMirror from 'codemirror';
 
 @Component({
@@ -6,15 +7,17 @@ import * as CodeMirror from 'codemirror';
   templateUrl: './codemirror-demo.component.html',
   styleUrls: ['./codemirror-demo.component.css']
 })
-export class CodemirrorDemoComponent implements OnInit {
+export class CodemirrorDemoComponent implements OnInit, AfterViewInit {
   @ViewChild('codemirrorTextarea') codemirrorTextarea: ElementRef;
   constructor() { }
 
   ngOnInit() {
-    CodeMirror.fromTextArea(this.codemirrorTextarea.nativeElement,{
+  }
+  ngAfterViewInit(): void {
+    CodeMirror.fromTextArea(this.codemirrorTextarea.nativeElement, {
       lineNumbers: true,
-      mode:  "javascript"
+      mode: "javascript",
+      matchBrackets: true
     });
   }
-
 }
