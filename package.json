@@ -22,6 +22,7 @@
     "@angular/platform-browser": "^4.1.0",
     "@angular/platform-browser-dynamic": "^4.1.0",
     "@angular/router": "^4.1.0",
+    "codemirror": "^5.28.0",
     "core-js": "^2.4.1",
     "fullcalendar": "^3.3.0",
     "highcharts": "^v5.0.9",
