@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   }
 
   logout(){
-    //清空登录信息
+    // 清空登录信息
     //....
     console.log("退出登录");
     //跳转到登录页面
