@@ -1,27 +1,36 @@
-import { Component, OnInit ,AfterViewInit} from '@angular/core';
+import { Component, OnInit, AfterViewInit, ViewChild ,ElementRef} from '@angular/core';
 import Swiper from 'swiper';
 @Component({
   selector: 'app-swiper-demo',
   templateUrl: './swiper-demo.component.html',
   styleUrls: ['./swiper-demo.component.css']
 })
-export class SwiperDemoComponent implements OnInit,AfterViewInit {
+export class SwiperDemoComponent implements OnInit, AfterViewInit {
+  private swiper : Swiper;
+
   ngAfterViewInit(): void {
-    debugger
-    var swiper = new Swiper('.swiper-container', {
+    this.swiper = new Swiper('.swiper-container', {
       pagination: '.swiper-pagination',
       paginationClickable: true,
-      nextButton: '.swiper-button-next',
-      prevButton: '.swiper-button-prev',
+      // nextButton: '.swiper-button-next',
+      // prevButton: '.swiper-button-prev',
       parallax: true,
       speed: 600,
-  });
+      loop:true
+    });
   }
 
-  constructor() { }
+  constructor() {
+
+  }
 
   ngOnInit() {
-    
-  }
 
+  }
+  prev(){
+    this.swiper.slidePrev();
+  }
+  next(){
+    this.swiper.slideNext();
+  }
 }
