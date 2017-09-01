@@ -18,6 +18,7 @@
     17.PhotoSwipe 已经完成 （photoswipe分支）
     18.ng2-pdf-viewer 已经完成（pdf-viewer分支）
     19.codemirror 已经完成（codemirror分支）
+    20.swiper 已经完成(swiper分支)
     .......
 ## github地址
     https://github.com/zhongzhong0505/CodeBe
