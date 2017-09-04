@@ -1,4 +1,4 @@
-import { Component, OnInit ,Input,ElementRef,ViewChild} from '@angular/core';
+import { Component, OnInit, Input, ElementRef, ViewChild, EventEmitter, Output } from '@angular/core';
 import 'fullcalendar';
 import { Options } from 'fullcalendar';
 import * as $ from 'jquery';
@@ -7,15 +7,59 @@ import * as $ from 'jquery';
     moduleId: module.id,
     selector: 'calendar',
     templateUrl: './calendar.component.html',
-    styleUrls:["./calendar.component.css"]
+    styleUrls: ["./calendar.component.css"]
 })
 export class CalendarComponent implements OnInit {
-    @Input() options: Options;
-    @ViewChild('calendar') calendar: ElementRef
+    private defaultOptions: Options;
+    @Input() options: Options = {};
+    @ViewChild('calendar') calendar: ElementRef;
+    @Output() eventRender = new EventEmitter();
+    @Output() dayClick = new EventEmitter();
+    @Output() eventClick = new EventEmitter();
 
-    constructor() { }
+    constructor() {
+        this.defaultOptions = {
+            height: 'parent',
+            header: {
+              left: 'prev,next today',
+              center: 'title',
+              right: 'month,agendaWeek,agendaDay,listWeek'
+            },
+            fixedWeekCount: false,
+            defaultDate: new Date(),
+            editable: true,
+            eventLimit: true, 
+            eventRender: (event, element) => {
+                this.eventRender.emit({event, element});
+            },
+            dayClick: (date, jsEvent, view) =>{
+                this.dayClick.emit({
+                    date,
+                    jsEvent,
+                    view
+                });
+            },
+            eventClick: (calEvent, jsEvent, view)=>{
+                this.eventClick.emit({
+                    calEvent,
+                    jsEvent,
+                    view
+                });
+            }
+        };
+    }
 
-    ngOnInit() { 
+    ngOnInit() {
+        if(this.options.hasOwnProperty('eventRender')){
+            delete this.options.eventRender;
+        }
+        if(this.options.hasOwnProperty('dayClick')){
+            delete this.options.dayClick;
+        }
+        if(this.options.hasOwnProperty('eventClick')){
+            delete this.options.eventClick;
+        }
+        this.options = Object.assign(this.defaultOptions, this.options);
         $(this.calendar.nativeElement).fullCalendar(this.options);
     }
 

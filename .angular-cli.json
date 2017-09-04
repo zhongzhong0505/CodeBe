@@ -18,9 +18,14 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/ng2-toastr/bundles/ng2-toastr.min.css",
+        "../node_modules/jsplumb/dist/css/jsplumbtoolkit-defaults.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/jsplumb/dist/js/jsplumb.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
