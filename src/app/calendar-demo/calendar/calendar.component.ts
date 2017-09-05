@@ -23,7 +23,14 @@ export class CalendarComponent implements OnInit {
             header: {
               left: 'prev,next today',
               center: 'title',
-              right: 'month,agendaWeek,agendaDay,listWeek'
+              right: 'month,agendaWeek,agendaDay'
+            },
+            locale: 'zh-cn',
+            buttonText:{
+                today:'今天',
+                month:'月',
+                agendaWeek:'周',
+                agendaDay:'日',
             },
             fixedWeekCount: false,
             defaultDate: new Date(),
