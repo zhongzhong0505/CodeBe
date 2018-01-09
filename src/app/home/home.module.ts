@@ -14,10 +14,7 @@ import { AmapDemoComponent } from '../amap-demo/amap-demo.component';
 import { AmapComponent } from '../amap-demo/amap/amap.component';
 import { GridDemoComponent } from '../grid-demo/grid-demo.component';
 import { GridComponent } from '../grid-demo/grid/grid.component';
-import { CalendarDemoComponent } from '../calendar-demo/calendar-demo.component';
-import { CalendarComponent } from '../calendar-demo/calendar/calendar.component';
 import { ZtreeDemoComponent } from '../ztree-demo/ztree-demo.component';
-import { JsplumbDemoComponent } from '../jsplumb-demo/jsplumb-demo.component';
 import { MathjaxDemoComponent } from '../mathjax-demo/mathjax-demo.component';
 import { MathjaxComponent } from '../mathjax-demo/mathjax/mathjax.component';
 import { MeComponent } from '../me/me.component';
@@ -34,10 +31,7 @@ import { homeRoutes } from './home.routes';
     AmapComponent,
     GridComponent,
     GridDemoComponent,
-    CalendarComponent,
-    CalendarDemoComponent,
     ZtreeDemoComponent,
-    JsplumbDemoComponent,
     MathjaxDemoComponent,
     MathjaxComponent,
     MeComponent
