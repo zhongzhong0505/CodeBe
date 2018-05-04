@@ -1,3 +1,4 @@
+## 如果你想学ng，想和我一起维护这个项目，欢迎提交PR
 ## CodeBe集成进度
     1.ckeditor 已经完成
     2.highcharts 已经完成（ng2分支）
