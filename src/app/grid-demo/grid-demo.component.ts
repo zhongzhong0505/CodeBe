@@ -1,15 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { flyIn } from '../animations/fly-in';
 import { GridComponent } from './grid/grid.component';
 
 @Component({
   selector: 'app-grid-demo',
   templateUrl: './grid-demo.component.html',
-  styleUrls: ['./grid-demo.component.css'],
-  animations:[flyIn]
+  styleUrls: ['./grid-demo.component.css']
 })
 export class GridDemoComponent implements OnInit {
-  public data:any = {
+  public data: any = {
     "columns": [{
       "title": "用户名",
       "field": "username"
@@ -44,7 +42,7 @@ export class GridDemoComponent implements OnInit {
     }]
   };
 
-  public data2:any = {
+  public data2: any = {
     "columns": [{
       "title": "列1",
       "field": "col1"

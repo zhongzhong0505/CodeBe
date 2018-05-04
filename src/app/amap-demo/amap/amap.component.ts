@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 declare var AMap: any;
 @Component({
-    moduleId: module.id,
     selector: 'amap',
     templateUrl: 'amap.component.html',
     styleUrls: ['amap.component.css']

@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  logout(){
+  logout() {
     // 清空登录信息
     //....
     console.log("退出登录");

@@ -1,5 +1,6 @@
-import { Component, OnInit,ElementRef } from '@angular/core';
+import { Component, OnInit, ElementRef } from '@angular/core';
 import 'ztree';
+import 'jquery'
 declare var $: any;
 
 @Component({
@@ -50,7 +51,7 @@ export class ZtreeDemoComponent implements OnInit {
   constructor(public el: ElementRef) { }
 
   ngOnInit() {
-    $.fn.zTree.init($("#ztree"),this.setting,this.zNodes);
+    $.fn.zTree.init($("#ztree"), this.setting, this.zNodes);
   }
 
 }

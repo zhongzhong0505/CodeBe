@@ -1,7 +1,6 @@
-import { Component, OnInit,Input } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-    moduleId: module.id,
     selector: 'grid',
     templateUrl: 'grid.component.html'
 })
