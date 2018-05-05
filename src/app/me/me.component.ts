@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-me',
@@ -15,11 +16,12 @@ export class MeComponent implements OnInit {
     value:'2',
     checked:true
   }];
-  constructor() { }
+  constructor(public router: Router) { }
 
   ngOnInit() {
   }
   onChange(event,item){
     item.checked = event.target.checked;
+    this.router.navigateByUrl("/home")
   }
 }
