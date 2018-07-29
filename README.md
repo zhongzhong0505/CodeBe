@@ -1,4 +1,13 @@
 ## 如果你想学ng，想和我一起维护这个项目，欢迎提交PR
+
+## 项目的环境信息
+    很多人反馈，项目clone下来后无法运行，这里我发一下我的本地的环境信息
+[![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1-4.png "效果图")]
+
+[![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1-5.png "效果图")]
+
+[![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1-6.png "效果图")]
+
 ## CodeBe集成进度
     1.ckeditor 已经完成
     2.highcharts 已经完成（ng2分支）
