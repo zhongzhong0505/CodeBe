@@ -25,7 +25,6 @@ import { LoginComponent } from './login/login.component';
     HttpModule,
     CKEditorModule,
     RouterModule.forRoot(appRoutes)
-   
   ],
   providers: [],
   bootstrap: [AppComponent]

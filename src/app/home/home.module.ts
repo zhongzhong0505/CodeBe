@@ -19,6 +19,7 @@ import { MathjaxComponent } from '../mathjax-demo/mathjax/mathjax.component';
 import { MeComponent } from '../me/me.component';
 
 import { homeRoutes } from './home.routes';
+import { FullCalendarComponent } from '../full-calendar/full-calendar.component';
 @NgModule({
 
   declarations: [
@@ -33,7 +34,8 @@ import { homeRoutes } from './home.routes';
     ZtreeDemoComponent,
     MathjaxDemoComponent,
     MathjaxComponent,
-    MeComponent
+    MeComponent,
+    FullCalendarComponent
   ],
   imports: [
     CommonModule,

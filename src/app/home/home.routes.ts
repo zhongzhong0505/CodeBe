@@ -7,6 +7,7 @@ import {GridDemoComponent} from '../grid-demo/grid-demo.component';
 import {ZtreeDemoComponent} from '../ztree-demo/ztree-demo.component';
 import {MathjaxDemoComponent} from '../mathjax-demo/mathjax-demo.component';
 import {MeComponent} from '../me/me.component';
+import { FullCalendarComponent } from '../full-calendar/full-calendar.component';
 
 export const homeRoutes = [
   {
@@ -37,6 +38,9 @@ export const homeRoutes = [
       }, {
         path: 'me',
         component: MeComponent
+      }, {
+        path: 'full-calendar',
+        component: FullCalendarComponent
       }
     ]
   }
