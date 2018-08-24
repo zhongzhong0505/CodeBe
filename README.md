@@ -1,4 +1,5 @@
 ## 如果你想学ng，想和我一起维护这个项目，欢迎提交PR
+## If you want to learn NG and contribute code. New PR please。
 
 ## 项目的环境信息
     很多人反馈，项目clone下来后无法运行，这里我发一下我的本地的环境信息
