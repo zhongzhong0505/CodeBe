@@ -2,6 +2,7 @@
 ## If you want to learn NG and contribute code. New PR please。
 
 ## 项目的环境信息
+## Environment
     很多人反馈，项目clone下来后无法运行，这里我发一下我的本地的环境信息
 ![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1-4.png "效果图")
 
