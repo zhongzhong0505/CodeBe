@@ -2996,9 +2996,9 @@ he@1.1.x:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/he/download/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
 
-highcharts@^v6.0.4:
-  version "6.1.0"
-  resolved "http://registry.npm.taobao.org/highcharts/download/highcharts-6.1.0.tgz#115a6ee10ad36a53d9913f1030c6d46da16c7cb5"
+highcharts@^v7.2.2:
+  version "7.2.2"
+  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-7.2.2.tgz#94d6bae545d7f0fbf49615b28640f5fdbf99d11e"
 
 highlight.js@^9.9.0:
   version "9.12.0"
