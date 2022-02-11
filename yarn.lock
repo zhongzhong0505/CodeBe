@@ -3004,9 +3004,9 @@ highcharts@^v7.2.2:
   version "7.2.2"
   resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-7.2.2.tgz#94d6bae545d7f0fbf49615b28640f5fdbf99d11e"
 
-highlight.js@^9.9.0:
-  version "9.12.0"
-  resolved "http://registry.npm.taobao.org/highlight.js/download/highlight.js-9.12.0.tgz#e6d9dbe57cbefe60751f02af336195870c90c01e"
+highlight.js@^10.2.0:
+  version "10.7.3"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
 
 hipchat-notifier@^1.1.0:
   version "1.1.0"
@@ -4133,9 +4133,9 @@ lodash.clonedeep@^4.3.2, lodash.clonedeep@^4.5.0, lodash.clonedeep@~4.5.0:
   version "4.5.0"
   resolved "http://registry.npm.taobao.org/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
 
-lodash.flow@^3.1.0:
+lodash.flow@^3.5.0:
   version "3.5.0"
-  resolved "http://registry.npm.taobao.org/lodash.flow/download/lodash.flow-3.5.0.tgz#87bf40292b8cf83e4e8ce1a3ae4209e20071675a"
+  resolved "https://registry.yarnpkg.com/lodash.flow/-/lodash.flow-3.5.0.tgz#87bf40292b8cf83e4e8ce1a3ae4209e20071675a"
 
 lodash.mergewith@^4.6.0:
   version "4.6.1"
@@ -4338,12 +4338,12 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-markdown-it-highlightjs@^3.0.0:
-  version "3.0.0"
-  resolved "http://registry.npm.taobao.org/markdown-it-highlightjs/download/markdown-it-highlightjs-3.0.0.tgz#ed3dd619ca2b98e6bf2112d163bf444043340210"
+markdown-it-highlightjs@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-highlightjs/-/markdown-it-highlightjs-3.3.1.tgz#38403610487292b8a1ae2d1acc7bb66e4ede6be8"
   dependencies:
-    highlight.js "^9.9.0"
-    lodash.flow "^3.1.0"
+    highlight.js "^10.2.0"
+    lodash.flow "^3.5.0"
 
 markdown-it-sub@^1.0.0:
   version "1.0.0"
