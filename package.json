@@ -26,7 +26,7 @@
     "highcharts": "^v7.2.2",
     "jquery": "^3.1.1",
     "markdown-it": "^8.4.0",
-    "markdown-it-highlightjs": "^3.0.0",
+    "markdown-it-highlightjs": "^3.3.1",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
     "ng2-ckeditor": "^1.1.13",
