@@ -1,8 +1,6 @@
 ## 如果你想学ng，想和我一起维护这个项目，欢迎提交PR
-## If you want to learn NG and contribute code. New PR please。
 
 ## 项目的环境信息
-## Environment
     很多人反馈，项目clone下来后无法运行，这里我发一下我的本地的环境信息
 ![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/1-4.png "效果图")
 
@@ -76,11 +74,6 @@
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/13.png "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/13.png "效果图")
 [![效果图](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/14.png "效果图")](https://raw.githubusercontent.com/zhongzhong0505/ng2-demo/master/images/14.png "效果图")
 
-## 关于我
-    我是钟钟 
-    QQ:459520690
-    QQ群：638149387
-    邮箱：zhongzhong@asloop.com
 
 ## 强烈推荐，大漠穷秋老师的-NiceFish
 http://git.oschina.net/mumu-osc/NiceFish
