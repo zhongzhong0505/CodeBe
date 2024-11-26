@@ -30,7 +30,7 @@
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
     "ng2-ckeditor": "^1.1.13",
-    "npm": "^6.0.0",
+    "npm": "^6.14.6",
     "rxjs": "^6.1.0",
     "simplemde": "^1.11.2",
     "ts-helpers": "^1.1.2",
